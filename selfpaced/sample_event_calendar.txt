@@ -1,0 +1,17 @@
+Sample SQL
+
+CREATE DATABASE event_calendar;
+
+USE event_calendar;
+
+CREATE TABLE events (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    event_name VARCHAR(255) NOT NULL,
+    description TEXT,
+    event_date DATE NOT NULL);
+
+INSERT INTO events (event_name, description, event_date) VALUES
+    ('Self-Paced Period Start', 'Start of Self-Paced Learning after Midterm Exams', '2024-10-21'),
+    ('Self-Paced Period End', 'End of Self-Paced Learning after Midterm Exams', '2024-10-24'),
+    ('Finals F2F Start', 'Start of the first face-to-face week for Finals', '2024-10-28'),
+    ('UC InTTO Cohort 8 Incubation Program Kickoff', 'Introduction to the structure of the UC InTTO incubation program, meeting of mentors, and getting to know fellow Cohort 8 participants.', '2024-10-29');

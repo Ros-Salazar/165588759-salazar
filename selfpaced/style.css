@@ -1,0 +1,88 @@
+* {
+    max-width: 1000px;
+    margin: 15px auto;
+    padding: 0px 5px;
+    font-family: "Poppins", sans-serif;
+}
+
+textarea {
+    width: 100%;
+    max-width: 395px;
+    padding: auto 10px;
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    height: 45px;
+    font-size: 18px;
+}
+
+th, td {
+    border-bottom: 1px solid;
+    height: 40px;
+    min-width: 135px;
+    padding: 10px;
+}
+
+a:link, a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: cornflowerblue;
+}
+
+.long_input {
+    width: 100%;
+    max-width: 395px;
+    padding: auto 10px;
+    box-sizing: border-box;
+}
+
+.semi-bold {
+    font-weight: 600;
+}
+
+.center {
+    text-align: center;
+}
+
+.name-column {
+    width: 315px;
+    line-height: 20px;
+}
+
+.description-column {
+    width: 415px;
+    line-height: 20px;
+}
+
+.poppins-regular {
+font-family: "Poppins", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.poppins-medium {
+font-family: "Poppins", sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+.poppins-semibold {
+font-family: "Poppins", sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+
+.poppins-bold {
+font-family: "Poppins", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+  
